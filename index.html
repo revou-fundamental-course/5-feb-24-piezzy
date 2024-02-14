@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celcius Ke Farenheit</title>
+    <link rel="stylesheet" media="all" href="css/style.css" />
+  </head>
+  <body>
+    <header id="navbar">
+      <h2 id="logo">mohikam.</h2>
+    </header>
+    <div class="input-section">
+      <h1 id="title-suhu">Temperature Converter</h1>
+      <label for="inputTemp">Inputkan Suhu:</label>
+      <select name="" id="inputTemp">
+        <option value="C">Celcius</option>
+        <option value="F">Fahrenheit</option>
+      </select>
+      <label for="hasilTemp">Konversi Ke Suhu:</label>
+      <select name="" id="hasilTemp">
+        <option value="C">Celcius</option>
+        <option value="F">Fahrenheit</option>
+      </select>
+      <br> <br>
+      <label for="temperature">Temperature</label> <br>
+      <input type="number" id="temperature" placeholder="masukan suhu" />
+      <button id="convert-btn" onclick="convert()">Konversi</button> <br> <br>
+
+      <label for="result" id="tulisanHasilKonversi">Hasil Konversi</label> <br>
+      <input type="text" id="result" readonly>
+      
+      <h4>Rumus</h4>
+      <p>
+        Rumus Konversi dari Celcius ke Fahrenheit
+        <p>F = 9/5 C + 32</p>
+        <br>
+        <p>Rumus Konversi dari Fahrenheit ke Celcius</p>
+        <p>C = 5/9 (F - 32)</p>
+      </p>
+    </div>
+    <script src="js/main.js"></script>
+    <footer class="footer"><p>Mohammad Hikam (github: piezzy)</p></footer>
+  </body>
+</html>

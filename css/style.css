@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/vivid.jpg);
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#navbar {
+  margin: 10px;
+  display: flex;
+  background-color: transparent !important;
+}
+
+#logo {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 50px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.input-section #title-suhu {
+  font-family: 'Poppins', sans-serif;
+  margin: 5px 5px;
+}
+
+.input-section {
+  background-color: rgb(255, 255, 255);
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+#convert-btn {
+  cursor: pointer;
+  background-color: rgb(246, 201, 252);
+  border-color: rgb(246, 201, 252);
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(44, 46, 46);
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+}
+label {
+  font-family: 'poppins', sans-serif;
+}
+select,
+input {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  border-color: rgb(246, 201, 252);
+}
+
+.input-section input {
+  margin-top: 10px;
+  width: 450px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: rgb(246, 201, 252);
+  width: 100%;
+}
+
+.input-section ::placeholder {
+  font-style: italic;
+}
+
+.input-section h4 {
+  margin: 10px 10px;
+}
+.input-section p {
+  font-style: italic;
+  color: rgb(59, 61, 58);
+  font-weight: 550;
+}
+
+.footer p {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  margin-top: 50px;
+  position: sticky;
+  text-align: center;
+}
